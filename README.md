@@ -8,3 +8,4 @@
 ![Imp](https://i.redd.it/638vo4ffl6891.jpg)
 
 # Porque la vida es buena eae
+I love to fart in class watching the Bratz
