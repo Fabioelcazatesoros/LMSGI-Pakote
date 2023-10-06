@@ -14,7 +14,7 @@ Proporcionó reglas detalladas para crear lenguajes de marcas personalizados
 Estos dos lenguajes, GML y SGML, formaron la base
 para el desarrollo de otros lenguajes de marcas más modernos y prácticos que tenemos a día de hoy
 
-# Caractrísticas de los lenguajes de marcas
+# Características de los lenguajes de marcas
 Los lenguajes de marcas organizan datos en estructuras jerárquicas, permitiendo
 la anidación de elementos dentro de otros elementos
 Pueden ser leídos y operados por humanos y máquinas, además
