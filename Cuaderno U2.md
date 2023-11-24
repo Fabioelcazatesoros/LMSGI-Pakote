@@ -6,19 +6,52 @@ Ejemplo:
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
-/´´´
+```
 
-### Elementos
+### Elementos:
+Estructuras básicas del documento y están contenidos entre etiquetas de apertura y cierre
+Ejemplo:
 
-### Atributos
+```XML
+<elemento>Contenido</elemento>
+```
 
-### Comentarios
+### Atributos:
+Proporcionan información adicional sobre un elemento
+Ejemplo:
 
-### Espacios de Nombres
+```XML
+<elemento atributo="valor">Contenido</elemento>
+```
+
+### Comentarios:
+Añaden notas de texto que no se ejecuta
+Ejemplo
+```XML
+<!-- comentario -->
+```
+
+### Espacios de Nombres:
+Permiten evitar conflictos de nombres al asignar un prefijo a un espacio identificado por una URL
+Ejemplo
+```XML
+<ns:elemento xmlns:ns="http://www.ejemplo.com">Contenido</ns:elemento>
+```
 
 ### Entidades
+Representan caracteres especiales
+Ejemplo
+```XML
+&lt;
+```
+representa &lt;
 
 ### CDATA
+CDATA (Character Data) se utiliza para incluir bloques de texto que no deben interpretarse como XML
+Ejemplo
+```XML
+<![CDATA[ Contenido especial ]]>
+```
 
 
 # Validación de documentos:
