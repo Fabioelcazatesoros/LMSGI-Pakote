@@ -1,6 +1,12 @@
 # Documentos XML, estructura:
 
-### declaración o prólogo
+### declaración o prólogo:
+Define la versión de XML utilizada y la codificación del documento
+Ejemplo: 
+
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+/´´´
 
 ### Elementos
 
