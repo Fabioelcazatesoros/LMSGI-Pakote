@@ -1,52 +1,52 @@
-#Documentos XML, estructura:
+# Documentos XML, estructura:
 
-###declaración o prólogo
+### declaración o prólogo
 
-###Elementos
+### Elementos
 
-###atributos
+### Atributos
 
-###Comentarios
+### Comentarios
 
-###Espacios de Nombres
+### Espacios de Nombres
 
-###Entidades
+### Entidades
 
-###CDATA
-
-
-#Validación de documentos:
-
-##DTD:
-
-###Entidades
-
-###Anotaciones
-
-###Elementos
-
-###Atributos
+### CDATA
 
 
-##XMLSchema:
+# Validación de documentos:
 
-###Definición
+## DTD:
 
-###Estructura Básica
+### Entidades
 
-###Elementos Locales y Globales
+### Anotaciones
 
-###Elementos Simples
+### Elementos
 
-###Elementos Complejos
+### Atributos
 
-###Subelementos
 
-###Atributos
+## XMLSchema:
 
-###Restricciones
+### Definición
 
-###Tipos de Datos
+### Estructura Básica
 
-###Comentarios en XMLSChema
+### Elementos Locales y Globales
+
+### Elementos Simples
+
+### Elementos Complejos
+
+### Subelementos
+
+### Atributos
+
+### Restricciones
+
+### Tipos de Datos
+
+### Comentarios en XMLSChema
 
