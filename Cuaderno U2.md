@@ -58,34 +58,134 @@ Ejemplo
 
 ## DTD:
 
-### Entidades
+### Entidades:
+Definen variables o constantes que se pueden utilizar en el documento XML
+Ejemplo
+```XML
+<!ENTITY autor "J.R.R. Tolkien">
+<libro>Escrito por &autor;</libro>
+```
 
-### Anotaciones
+### Anotaciones:
+Proporcionan información adicional sobre la estructura del documento XML
+Ejemplo
+```XML
+<!-- Definición de elementos para un libro -->
+<!ELEMENT libro (#PCDATA)>
+```
 
-### Elementos
+### Elementos:
+Definen la estructura jerárquica del documento, especificando qué elementos pueden aparecer y en qué orden
+Ejemplo
+```XML
+<!ELEMENT libro (titulo, autor)>
+```
 
-### Atributos
+### Atributos:
+Especifican los atributos que un elemento puede tener
+Ejemplo
+```XML
+<!ATTLIST libro categoria CDATA #IMPLIED>
+```
 
 
 ## XMLSchema:
 
-### Definición
+### Definición:
+Proporciona una estructura formal y detallada para describir y validar la estructura y el contenido de un documento XML
 
-### Estructura Básica
+### Estructura Básica:
 
-### Elementos Locales y Globales
 
-### Elementos Simples
+### Elementos Locales y Globales:
+Un elemento local se define dentro de otro, mientras que un elemento global se puede utilizar en cualquier parte del documento
+Ejemplo local
+```XML
+<xs:element name="libro">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"/>
+            <xs:element name="autor" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+```
+Ejemplo global
+```XML
+<xs:element name="libro" type="libroType"/>
 
-### Elementos Complejos
+<xs:complexType name="libroType">
+    <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="autor" type="xs:string"/>
+    </xs:sequence>
+</xs:complexType>
+```
 
-### Subelementos
+### Elementos Simples:
+Elementos que contienen datos simples, como cadenas de texto o números
+Ejemplo
+```XML
+<xs:element name="titulo" type="xs:string"/>
+```
 
-### Atributos
+### Elementos Complejos:
+Elementos que contienen subelementos u otros datos complejos
+Ejemplo
+```XML
+<xs:element name="libro">
+  <xs:complexType>
+    <!-- Definición de la estructura compleja del libro -->
+  </xs:complexType>
+</xs:element>
+```
 
-### Restricciones
+### Subelementos:
+Definen la relación jerárquica entre los elementos
+Ejemplo
+```XML
+<xs:element name="libro">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="autor" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+```
 
-### Tipos de Datos
+### Atributos:
+Especifican los atributos que un elemento puede tener
+Ejemplo
+```XML
+<xs:element name="libro">
+  <xs:complexType>
+    <xs:attribute name="categoria" type="xs:string"/>
+  </xs:complexType>
+</xs:element>
+```
 
-### Comentarios en XMLSChema
+### Restricciones:
+Limitan los valores que un elemento puede tener
+Ejemplo
+```XML
+<xs:element name="anioPublicacion">
+  <xs:simpleType>
+    <xs:restriction base="xs:positiveInteger"/>
+  </xs:simpleType>
+</xs:element>
+```
+
+### Tipos de Datos:
+Definen los tipos de datos que pueden tomar los elementos o atributos
+Ejemplo
+```XML
+<xs:element name="anioPublicacion" type="xs:gYear"/>
+```
+
+### Comentarios en XMLSChema:
+Funcionan igual que en XML normal
+```XML
+<!-- comentario -->
+```
 
