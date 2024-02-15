@@ -1,20 +1,19 @@
 # HTML y su Evolución
 
-HTML (Hypertext Markup Language) es el lenguaje estándar para la creación y diseño de páginas web. Ha evolucionado a lo largo de los años para adaptarse a las necesidades cambiantes de la web y para admitir nuevas tecnologías y estándares.
+HTML (Hypertext Markup Language) es el lenguaje estándar para la creación y diseño de páginas web. Ha evolucionado a lo largo de los años para adaptarse a las necesidades cambiantes de la web y para admitir nuevas tecnologías y estándares
 
 HTML ha pasado por varias versiones, desde HTML original hasta HTML5. Cada versión ha introducido nuevas características y mejoras. HTML5 es la versión más reciente hasta la fecha
 
 # XHTML: Diferencias, Ventajas y Desventajas con Respecto a HTML
 
-## Diferencias
 XHTML (Extensible Hypertext Markup Language) es una versión más estricta de HTML que sigue las reglas de XML (Extensible Markup Language). La principal diferencia radica en la sintaxis más rigurosa y en la necesidad de cerrar todas las etiquetas.
 
-## Ventajas de XHTML
+Tiene ventajas sobre HTML como:
 - Mayor coherencia en la estructura del documento.
 - Facilita la interoperabilidad con otras tecnologías basadas en XML.
 - Proporciona una mayor precisión en el manejo de errores.
 
-## Desventajas de XHTML
+Pero tambien tiene desventajas como:
 - Mayor complejidad y rigidez en la sintaxis.
 - La transición desde HTML a XHTML puede requerir ajustes significativos en el código existente.
 
