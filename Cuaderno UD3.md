@@ -6,30 +6,30 @@ HTML ha pasado por varias versiones, desde HTML original hasta HTML5. Cada versi
 
 # XHTML: Diferencias, Ventajas y Desventajas con Respecto a HTML
 
-XHTML (Extensible Hypertext Markup Language) es una versión más estricta de HTML que sigue las reglas de XML (Extensible Markup Language). La principal diferencia radica en la sintaxis más rigurosa y en la necesidad de cerrar todas las etiquetas.
+XHTML (Extensible Hypertext Markup Language) es una versión más estricta de HTML que sigue las reglas de XML (Extensible Markup Language). La principal diferencia radica en la sintaxis más rigurosa y en la necesidad de cerrar todas las etiquetas
 
 Tiene ventajas sobre HTML como:
-- Mayor coherencia en la estructura del documento.
-- Facilita la interoperabilidad con otras tecnologías basadas en XML.
-- Proporciona una mayor precisión en el manejo de errores.
+- Mayor coherencia en la estructura del documento
+- Facilita la interoperabilidad con otras tecnologías basadas en XML
+- Proporciona una mayor precisión en el manejo de errores
 
 Pero tambien tiene desventajas como:
-- Mayor complejidad y rigidez en la sintaxis.
-- La transición desde HTML a XHTML puede requerir ajustes significativos en el código existente.
+- Mayor complejidad y rigidez en la sintaxis
+- La transición desde HTML a XHTML puede requerir ajustes significativos en el código existente
 
 # Estructura de un Documento HTML
 
 ## Cabecera HTML
 
 ### Title
-La etiqueta `<title>` se utiliza para definir el título del documento, que aparece en la barra de título del navegador.
+La etiqueta `<title>` se utiliza para definir el título del documento, que aparece en la barra de título del navegador
 
 ```html
 <title>Nombre de la Página</title>
 ```
 
 ### Meta
-La etiqueta `<meta>` proporciona información sobre el documento y su configuración, como el conjunto de caracteres y la descripción.
+La etiqueta `<meta>` proporciona información sobre el documento y su configuración, como el conjunto de caracteres y la descripción
 
 ```html
 <meta charset="UTF-8">
@@ -37,7 +37,7 @@ La etiqueta `<meta>` proporciona información sobre el documento y su configurac
 ```
 
 ### Style
-La etiqueta `<style>` se utiliza para incluir reglas de estilo CSS en línea.
+La etiqueta `<style>` se utiliza para incluir reglas de estilo CSS en línea
 
 ```html
 <style>
@@ -48,14 +48,14 @@ La etiqueta `<style>` se utiliza para incluir reglas de estilo CSS en línea.
 ```
 
 ### Link
-La etiqueta `<link>` se utiliza para vincular el documento a recursos externos, como hojas de estilo o iconos.
+La etiqueta `<link>` se utiliza para vincular el documento a recursos externos, como hojas de estilo o iconos
 
 ```html
 <link rel="stylesheet" href="estilos.css">
 ```
 
 ### Script
-La etiqueta `<script>` se utiliza para incluir scripts, como JavaScript, en el documento.
+La etiqueta `<script>` se utiliza para incluir scripts, como JavaScript, en el documento
 
 ```html
 <script src="script.js"></script>
@@ -64,14 +64,14 @@ La etiqueta `<script>` se utiliza para incluir scripts, como JavaScript, en el d
 ## Cuerpo HTML
 
 ### Elementos de Bloque
-Los elementos de bloque definen bloques completos de contenido y generalmente comienzan en una nueva línea. Algunos ejemplos son `<div>`, `<p>`, `<h1>` a `<h6>`, `<ul>`, `<ol>`, `<li>`, etc.
+Los elementos de bloque definen bloques completos de contenido y generalmente comienzan en una nueva línea. Algunos ejemplos son `<div>`, `<p>`, `<h1>` a `<h6>`, `<ul>`, `<ol>` y `<li>`
 
 ### Elementos de Línea
-Los elementos de línea se utilizan dentro de elementos de bloque y no inician una nueva línea por sí mismos. Algunos ejemplos son `<span>`, `<a>`, `<strong>`, `<em>`, `<img>`, etc.
+Los elementos de línea se utilizan dentro de elementos de bloque y no inician una nueva línea por sí mismos. Algunos ejemplos son `<span>`, `<a>`, `<strong>`, `<em>` y `<img>`
 
 ## Listas, Tablas y Formularios
 
-- Listas: `<ul>` (lista no ordenada), `<ol>` (lista ordenada), `<li>` (elemento de lista).
+- Listas: `<ul>` (lista no ordenada), `<ol>` (lista ordenada) y `<li>` (elemento de lista)
   
 ```html
 <ul>
@@ -80,7 +80,7 @@ Los elementos de línea se utilizan dentro de elementos de bloque y no inician u
 </ul>
 ```
 
-- Tablas: `<table>`, `<tr>` (fila), `<th>` (celda de encabezado), `<td>` (celda de datos).
+- Tablas: `<table>`, `<tr>` (fila), `<th>` (celda de encabezado) y `<td>` (celda de datos)
 
 ```html
 <table>
@@ -95,7 +95,7 @@ Los elementos de línea se utilizan dentro de elementos de bloque y no inician u
 </table>
 ```
 
-- Formularios: `<form>`, `<input>`, `<textarea>`, `<button>`, etc.
+- Formularios: `<form>`, `<input>`, `<textarea>` y `<button>`
 
 ```html
 <form action="/procesar" method="post">
@@ -107,7 +107,7 @@ Los elementos de línea se utilizan dentro de elementos de bloque y no inician u
 
 ## Elementos Multimedia para HTML5
 
-HTML5 introduce nuevas etiquetas para el manejo de contenido multimedia, como `<audio>` y `<video>`.
+HTML5 introduce nuevas etiquetas para el manejo de contenido multimedia, como `<audio>` y `<video>`
 
 ```html
 <audio controls>
