@@ -1,10 +1,8 @@
 # HTML y su Evolución
 
-## Introducción
 HTML (Hypertext Markup Language) es el lenguaje estándar para la creación y diseño de páginas web. Ha evolucionado a lo largo de los años para adaptarse a las necesidades cambiantes de la web y para admitir nuevas tecnologías y estándares.
 
-## Evolución de HTML
-HTML ha pasado por varias versiones, desde HTML original hasta HTML5. Cada versión ha introducido nuevas características y mejoras. HTML5, la versión más reciente en el momento de mi última actualización en enero de 2022, se centra en el soporte de multimedia, semántica mejorada y accesibilidad.
+HTML ha pasado por varias versiones, desde HTML original hasta HTML5. Cada versión ha introducido nuevas características y mejoras. HTML5 es la versión más reciente hasta la fecha
 
 # XHTML: Diferencias, Ventajas y Desventajas con Respecto a HTML
 
