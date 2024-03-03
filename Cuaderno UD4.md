@@ -56,5 +56,3 @@ Para estilizar listas, se utilizan propiedades como `list-style-type`, `list-sty
 ### Diseño Adaptativo (Media Queries)
 
 Las Media Queries permiten aplicar estilos específicos basados en características del dispositivo, como el ancho de la pantalla, facilitando la creación de diseños adaptativos y responsivos
-
-Estos conceptos son fundamentales para el desarrollo web moderno, proporcionando herramientas poderosas para personalizar y mejorar la presentación de contenido en línea
