@@ -1,5 +1,3 @@
-Por supuesto, aquí tienes un texto en formato Markdown sobre sistemas de gestión de información:
-
 # Sistemas de Gestión de Información
 
 ## Características
@@ -58,5 +56,3 @@ El Business Intelligence se refiere al uso de datos para la toma de decisiones e
 - **OLAP (Online Analytical Processing):** Proceso interactivo para análisis de datos multidimensionales.
 - **Data Mining:** Descubrimiento de patrones y tendencias en grandes conjuntos de datos.
 - **Dashboards:** Representación visual de datos para análisis rápido.
-
-Estos sistemas trabajan en conjunto para proporcionar a las empresas información valiosa que impulsa la toma de decisiones estratégicas y la mejora continua.
